@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en-IN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#080B18" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <script>
+      // Marks the document as JS-enabled so scroll-reveal styles only apply when they can be undone.
+      document.documentElement.classList.add("js");
+      try {
+        if (localStorage.getItem("ikom-motion") === "reduced") document.documentElement.classList.add("reduce-motion");
+      } catch (e) {}
+    </script>
+    <!--head-->
+  </head>
+  <body>
+    <div id="root"><!--app-html--></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

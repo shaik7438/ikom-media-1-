@@ -1,0 +1,7 @@
+# Netlify redirects (ignored by Vercel, which uses vercel.json)
+/about-us                 /about                301
+/contact-us               /contact              301
+/pricing                  /packages/marketing   301
+/packages                 /packages/marketing   301
+/privacy                  /privacy-policy       301
+/services/seo-services    /services/seo         301
